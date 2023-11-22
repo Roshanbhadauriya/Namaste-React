@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width:100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin:20px auto;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+li{
+    list-style: none;
+}
+
+.body{
+    margin: 5vw  10vw ;
+    background-color: #fafafa;
+}
+
+.card{
+    width:300px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    border-radius: 5%;
+    padding:10px;
+   
+}
+.card:hover{
+    transform:scale(1.05);
+}
+
+.thumbnail{
+    width: 100%;
+ 
+}
+.text-area{
+    margin: 10px;
+}
+.shop-name{
+    font-size: 20px;
+}
+.rating{
+    font-size:15px;
+}
+.cusine{
+    font-size: 15px;
+    opacity: 70%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
